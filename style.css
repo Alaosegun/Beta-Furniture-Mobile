@@ -141,7 +141,7 @@ header .couch{
     margin-top: 4rem;
 }
 .lamp-section{
-    margin-top: 4rem;
+    margin-top: 6rem;
     padding-left: 1rem;
 }
 .download-lamp{
@@ -151,7 +151,7 @@ header .couch{
     border-radius: 8px;
     position: relative;
     top: 2.3rem;
-    /* right: 10.5rem; */
+    right: 10rem;
 }
 .download-lamp:hover{
     background-color: black;
@@ -159,6 +159,7 @@ header .couch{
 }
 
 .container{
+
     width: 90%;
     max-width: 300px;
     background-color: white;
