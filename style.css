@@ -1,0 +1,23 @@
+/* body, h{
+    overflow-x: hidden;
+} */
+header{
+    /* height: 70vh; */
+    background: linear-gradient( rgb(205, 154, 25) 3%, goldenrod 20%, rgb(243, 199, 89) 70% );
+}
+.parent-couch{
+    text-align: center;
+}
+header .couch{
+    margin-top: 20rem;
+    position: relative;
+    top: 2rem;
+}
+
+ .long-flex1{
+    width: 8rem;
+    height: 23rem;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+}
