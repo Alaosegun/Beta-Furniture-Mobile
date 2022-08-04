@@ -136,6 +136,9 @@ header .couch{
     border-radius: 30px;
   
 } 
+.square-verizon{
+    display: none;
+}
 .our-partners{
    text-align: center;
    margin-top: 5rem;
@@ -273,6 +276,273 @@ footer .logo{
 }
 
 
+@media screen and (min-width: 641px) {
+    header label{
+        font-size: 2.4rem;
+        font-weight: bold;
+        padding-left: 2.5rem;
+        position: relative;
+        top: 0.7rem;
+      
+    }
+    header .couch{
+        position: relative;
+        top: 2rem;
+        
+       
+    }
+    .couch img{
+        width: 90%;
+        position: relative;
+        top: 6rem;
+    }
+     .long-flex1{
+        width: 16rem;
+        height: 30rem;
+        background-color: black;
+        border-radius: 15px;
+        color: white;
+        position: relative;
+        /* left: 4.4rem; */
+        bottom: 24rem;
+        margin: 0 auto ;
+        margin-bottom: 6rem;
+    
+        
+    }
+    .long-flex1 h2{
+            font-size:1.8rem;
+            padding-top: 3rem;
+            position: relative;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .bulb-parent{
+       text-align: center;
+    }
+    .bulb-couch{
+        background-color: rgb(17, 15, 15);
+        padding: 1.5rem;
+        border-radius: 100%;
+        margin-top: 3rem;
+        width: 3rem;
+        
+    }
+    .long-flex1 p{
+        font-size: 1.4rem;
+        text-align: center;
+        margin-top: 5rem;
+     
+    }
+    .long-flex1 p span{
+      font-size: 1rem;
+      color: goldenrod;
+    }
+    .download{
+        width:14rem;
+        color: black;
+        font-size: 1.2rem;
+        background-color: goldenrod;
+        border: none;
+        border-radius: 8px;
+        position: relative;
+        
+    }
+    .download:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+    .download-parent{
+       text-align: center;
+       position: relative;
+       bottom: 26rem;
+    }
+    .flexbox1{
+        display: flex;
+        position: relative;
+        bottom: 15rem;
+    }
+    .flexbox1 p{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .our-partners{
+        position: relative;
+        bottom: 4rem;
+    }
+    .parent-partners{
+        display: flex;
+        gap: 0.5rem;
+        align-items: baseline;
+        
+    }
+    .partners3{
+       position: relative;
+       right: 3rem;
+       top: 5.5rem;
+    }
+    .partners-1 .square-verizon{
+        display: none;
+    }
+    .tableflex{
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    
+
+    }
+    .tablesignup{
+        background-color: goldenrod;
+        padding: 5px;
+        border-radius: 6px;
+        width: 5rem;
+        font-size: 1.4rem;
+        border: none;
+        width: 7rem;
+        margin-right: 15rem;
+    
+    
+    }
+    .tablesignup:hover{
+        background-color: black;
+        color: white;
+    }
+    .tableandtext{
+        padding-left: 1rem;
+        margin-top: 4rem;
+      
+    }
+    .tableflex{
+        /* text-align: center; */
+        position: relative;
+        top: 10rem;
+    }
+    .tableflex .table{
+        width: 80%;
+        position: relative;
+        right: 3rem;
+    }
+    h2.relax{
+        font-size: 2.3rem;
+      
+    }
+    p.relax{
+      width: 80%;
+      margin-left:1rem;
+      align-items: justify;
+    }
+     .lamp-section{
+       position: relative;
+       right: 6rem;
+       margin-top: 15rem;
+       position: relative;
+       top: 20rem;
+    }
+    .lamp{
+        width: 15rem;
+    }
+    .download-lamp{
+        background-color: goldenrod;
+        border: none;
+        padding: 10px;
+        border-radius: 8px;
+        position: relative;
+        top: 2.3rem;
+        right: 14rem;
+        width: 13.5rem;
+        font-size: 1.2rem;
+        height: 3rem;
+        
+    }
+    
+    .container{
+    
+        width: 70%;
+        max-width: 300px;
+        background-color: transparent;
+        border: 10px solid ;
+        border-radius: 10px;
+        position: relative;
+        bottom: 17rem;
+        margin-right: 2rem;
+   
+    }
+    .container h3{
+        margin-left: 1.6rem;
+        font-size: 1.5rem;
+    }
+    .first-name{
+        margin-top:1rem;
+    }
+    label{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .formgroup{
+        width: 90%;
+        margin-top: 1.5rem;
+        margin-left: 15px;
+        margin: 0 auto;
+
+    
+    }
+    .formgroup input, .formgroup textarea{
+        width: 90%;
+        padding: 7px;
+        border: 4px solid rgb(232, 182, 57);
+        margin-top: 5px;
+       
+    }
+    
+    textarea{
+        resize: vertical;
+    }
+    .container button{
+        width: 8.6rem;
+        border: none;
+        padding: 10px;
+        font-size: 20px;
+        margin-top: 15px;
+        color: white;
+        background-color: rgb(199, 150, 28);
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        border-radius:  6px;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding: none;
+    }
+    .footer-parent{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5rem;
+        text-transform: capitalize;
+        line-height: 2rem;
+    }
+    footer h3{
+        font-size: 1rem;
+        /* margin-left: 1rem; */
+        color: rgba(255, 255, 255, 0.685);
+    }
+    footer ul li{
+        list-style: none;
+        font-size: 1rem;
+        line-height: 2.2rem;
+    }
+    footer .logo{
+        color: rgb(205, 154, 25);
+        /* padding-left: 2rem; */
+        padding-top: 6rem;
+        font-size: 1.3rem;
+    }
+    
+}
+
 @media screen and (min-width: 1008px) {
     header label{
         font-size: 2.4rem;
@@ -329,6 +599,7 @@ footer .logo{
         font-size: 1.4rem;
         text-align: center;
         margin-top: 5rem;
+       
     }
     .long-flex1 p span{
       font-size: 1rem;
@@ -359,6 +630,9 @@ footer .logo{
         display: flex;
         position: relative;
         bottom: 15rem;
+        justify-content: center;
+        align-items: center;
+        gap: 4.5rem;
     }
     .our-partners{
         position: relative;
@@ -369,6 +643,9 @@ footer .logo{
         gap: 1rem;
         align-items: baseline;
         
+    }
+    .icons p{
+        width: 20rem;
     }
     .tableflex{
         display: flex;
