@@ -4,16 +4,22 @@
 header{
     /* height: 70vh; */
     background: linear-gradient( rgb(205, 154, 25) 3%, goldenrod 20%, rgb(243, 199, 89) 70% );
+    
 }
 body{
    overflow-x: hidden;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 header label{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-weight: bold;
-    padding-left: 1.5rem;
-   margin-top: 3rem;
+    padding-left: 1rem;
+    position: relative;
+    top: 0.7rem;
+  
+}
+.couch img{
+    width: 16rem;
 }
 .parent-couch{
     text-align: center;
@@ -64,9 +70,10 @@ header .couch{
 }
 .long-flex1 p span{
   font-size: 0.8rem;
+  color: goldenrod;
 }
 .download{
-    width:10rem;
+    width:11rem;
     height: 2.5rem;
     color: black;
     background-color: goldenrod;
@@ -105,18 +112,28 @@ header .couch{
     justify-content: center;
     align-items: center;
 }
- .partners-1, .partners2{
+ .partners-1, .partners2, .partners3{
   display: flex;
   gap: 1rem;
   justify-content: center;
     align-items: center;
     padding: 1rem;
 }  
-
-/* .partners-1 img{
+.square{
+    width: 7rem;
+    height: 7rem;
+    background-color: white;
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px  ;
+}
+.square img{
+   margin-top: 2rem;
+}
+
+ .partners-1 img{
+    
+    border-radius: 30px;
   
-} */
+} 
 .our-partners{
    text-align: center;
    margin-top: 5rem;
@@ -139,10 +156,24 @@ header .couch{
 .tableandtext{
     padding-left: 1rem;
     margin-top: 4rem;
+  
 }
-.lamp-section{
+.tableflex{
+    text-align: center;
+}
+.tableflex .table{
+    width: 15rem;
+}
+p.relax{
+  text-align: center;
+  width: 100%;
+}
+ .lamp-section{
+    text-align: center;
+    margin: 0 auto;
+}
+.lamp{
     margin-top: 6rem;
-    padding-left: 1rem;
 }
 .download-lamp{
     background-color: goldenrod;
@@ -151,7 +182,7 @@ header .couch{
     border-radius: 8px;
     position: relative;
     top: 2.3rem;
-    right: 10rem;
+    /* right: 5rem; */
 }
 .download-lamp:hover{
     background-color: black;
@@ -160,18 +191,27 @@ header .couch{
 
 .container{
 
-    width: 90%;
+    width: 70%;
     max-width: 300px;
-    background-color: white;
-    box-shadow: 0px 0px 20px 10px #00000010;
-    border-radius: 20px;
+    background-color: transparent;
+    border: 10px solid ;
+    border-radius: 10px;
     margin: 0 auto;
-    margin-top: 4rem;
+    margin-top: 9rem;
+    margin-bottom: 2rem;
+}
+.container h3{
+    margin-left: 1.6rem;
+    font-size: 1rem;
+}
+.first-name{
+    margin-top:1rem;
 }
 .formgroup{
-    width: 90%;
+    width: 80%;
     margin-top: 1.5rem;
     margin-left: 15px;
+    margin: 0 auto;
 
 }
 .formgroup input, .formgroup textarea{
@@ -186,12 +226,298 @@ textarea{
     resize: vertical;
 }
 .container button{
-    width: 100%;
+    width: 8.6rem;
     border: none;
     padding: 10px;
     font-size: 20px;
     margin-top: 15px;
     color: white;
-    background-color: goldenrod;
-    border-radius: 0 0 20px 20px;
+    background-color: rgb(199, 150, 28);
+    margin-left: 1.6rem;
+    margin-bottom: 1rem;
+    border-radius:  6px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    padding: 1rem;
+}
+footer ul li{
+    font-size: 0.7rem;
+    list-style: none;
+    line-height: 2rem;
+}
+footer h3{
+    font-size:0.8rem ;
+    margin-left: 2rem;
+    color: rgba(255, 255, 255, 0.685);
+}
+footer svg{
+    fill: white;
+    padding-left: 1.5rem;
+}
+footer svg:hover{
+    fill: lavender;
+}
+footer .logo{
+    color: rgb(205, 154, 25);
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-size: 1.1rem;
+}
+
+
+@media screen and (min-width: 1008px) {
+    header label{
+        font-size: 2.4rem;
+        font-weight: bold;
+        padding-left: 2.5rem;
+        position: relative;
+        top: 0.7rem;
+      
+    }
+    header .couch{
+        position: relative;
+        top: 2rem;
+        
+       
+    }
+    .couch img{
+        width: 90%;
+        position: relative;
+        top: 6rem;
+    }
+     .long-flex1{
+        width: 18rem;
+        height: 34rem;
+        background-color: black;
+        border-radius: 15px;
+        color: white;
+        position: relative;
+        /* left: 4.4rem; */
+        bottom: 30rem;
+        margin: 0 auto ;
+    
+        
+    }
+    .long-flex1 h2{
+            color: goldenrod;
+            font-size:1.8rem;
+            padding-top: 3rem;
+            position: relative;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .bulb-parent{
+       text-align: center;
+    }
+    .bulb-couch{
+        background-color: rgb(17, 15, 15);
+        padding: 1.5rem;
+        border-radius: 100%;
+        margin-top: 3rem;
+        width: 4rem;
+        
+    }
+    .long-flex1 p{
+        font-size: 1.4rem;
+        text-align: center;
+        margin-top: 5rem;
+    }
+    .long-flex1 p span{
+      font-size: 1rem;
+      color: goldenrod;
+    }
+    .download{
+        width:14rem;
+        /* height: 2.8rem; */
+        color: black;
+        font-size: 1.2rem;
+        background-color: goldenrod;
+        border: none;
+        border-radius: 8px;
+        position: relative;
+        
+    }
+    .download:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+    .download-parent{
+       text-align: center;
+       position: relative;
+       bottom: 26rem;
+    }
+    .flexbox1{
+        display: flex;
+        position: relative;
+        bottom: 15rem;
+    }
+    .our-partners{
+        position: relative;
+        bottom: 4rem;
+    }
+    .parent-partners{
+        display: flex;
+        gap: 1rem;
+        align-items: baseline;
+        
+    }
+    .tableflex{
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    
+
+    }
+    .tablesignup{
+        background-color: goldenrod;
+        padding: 5px;
+        border-radius: 6px;
+        width: 5rem;
+        font-size: 1.4rem;
+        border: none;
+        width: 7rem;
+        margin-right: 15rem;
+    
+    
+    }
+    .tablesignup:hover{
+        background-color: black;
+        color: white;
+    }
+    .tableandtext{
+        padding-left: 1rem;
+        margin-top: 4rem;
+      
+    }
+    .tableflex{
+        /* text-align: center; */
+        position: relative;
+        top: 10rem;
+    }
+    .tableflex .table{
+        width: 100%;
+        position: relative;
+        right: 6rem;
+    }
+    h2.relax{
+        font-size: 2.3rem;
+      
+    }
+    p.relax{
+      width: 50%;
+      margin-left:12rem;
+      align-items: justify;
+    }
+     .lamp-section{
+       position: relative;
+       right: 12rem;
+       margin-top: 15rem;
+       position: relative;
+       top: 20rem;
+    }
+    .lamp{
+        width: 15rem;
+    }
+    .download-lamp{
+        background-color: goldenrod;
+        border: none;
+        padding: 10px;
+        border-radius: 8px;
+        position: relative;
+        top: 2.3rem;
+        right: 14rem;
+        width: 13.5rem;
+        font-size: 1.2rem;
+        height: 3rem;
+        
+    }
+    
+    .container{
+    
+        width: 70%;
+        max-width: 300px;
+        background-color: transparent;
+        border: 10px solid ;
+        border-radius: 10px;
+        position: relative;
+        bottom: 17rem;
+        margin-right: 15rem;
+   
+    }
+    .container h3{
+        margin-left: 1.6rem;
+        font-size: 1.5rem;
+    }
+    .first-name{
+        margin-top:1rem;
+    }
+    label{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .formgroup{
+        width: 90%;
+        margin-top: 1.5rem;
+        margin-left: 15px;
+        margin: 0 auto;
+
+    
+    }
+    .formgroup input, .formgroup textarea{
+        width: 90%;
+        padding: 7px;
+        border: 4px solid rgb(232, 182, 57);
+        margin-top: 5px;
+       
+    }
+    
+    textarea{
+        resize: vertical;
+    }
+    .container button{
+        width: 8.6rem;
+        border: none;
+        padding: 10px;
+        font-size: 20px;
+        margin-top: 15px;
+        color: white;
+        background-color: rgb(199, 150, 28);
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        border-radius:  6px;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding: none;
+    }
+    .footer-parent{
+        display: flex;
+        gap: 5rem;
+        text-transform: capitalize;
+        line-height: 2rem;
+    }
+    footer h3{
+        font-size: 1rem;
+        /* margin-left: 1rem; */
+        color: rgba(255, 255, 255, 0.685);
+    }
+    footer ul li{
+        list-style: none;
+        font-size: 1rem;
+        line-height: 2.2rem;
+    }
+    footer .logo{
+        color: rgb(205, 154, 25);
+        /* padding-left: 2rem; */
+        padding-top: 0.1rem;
+        font-size: 1.3rem;
+    }
+    
 }
