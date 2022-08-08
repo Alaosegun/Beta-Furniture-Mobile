@@ -18,11 +18,74 @@ header label{
     top: 0.3rem;
   
 }
+nav{
+    display: flex;
+    gap: 14rem;
+    height: 1rem;
+}
+nav ul{
+    /* float: right; */
+   margin: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 1.7rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    padding: 1.3rem;
+    border-radius: 3px;
+    
+
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    margin-right: 40px;
+    position: relative;
+    left: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
 .couch img{
     width: 16.5rem;
 }
 .parent-couch{
     text-align: center;
+}
+.login{
+    padding: 15px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    height: 47px;
+    width: 100px;
+    border: none;
+    font-size: 1.2rem;
+    margin-left: 5.5rem;
+    margin-top: 0.8rem;
+}
+.login:hover, .sign-up:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.sign-up{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    height: 47px;
+    width: 100px;
+    border: none;
+    font-size: 1.2rem;
 }
 header .couch{
     margin-top: 17rem;
@@ -39,9 +102,12 @@ header .couch{
     border-radius: 15px;
     color: white;
     position: relative;
+ 
     /* left: 4.4rem; */
     bottom: 16rem;
     margin: 0 auto ;
+   /* margin-bottom: 3rem; */
+
 
     
 }
@@ -49,7 +115,6 @@ header .couch{
         color: goldenrod;
         font-size:1.1rem;
         padding-top: 2rem;
-        position: relative;
         text-align: center;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -592,7 +657,7 @@ footer .logo{
         padding: 1.5rem;
         border-radius: 100%;
         margin-top: 3rem;
-        width: 4rem;
+        width: 3rem;
         
     }
     .long-flex1 p{
@@ -802,4 +867,84 @@ footer .logo{
         font-size: 1.3rem;
     }
     
+}
+@media (max-width:952px){
+    label.logo{
+        /* font-size: 30px; */
+        /* padding-left: 50px; */
+    }
+    nav ul li a{
+        font-size: 10px;
+    }
+    nav{
+        display: inline-block;
+        
+    }
+    nav label{
+        position: relative;
+        left: 0;
+    }
+
+}
+@media (max-width:858px){
+    nav{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 0;
+     
+    }
+    nav label{
+        color: black;
+        font-size: 1.3rem;
+        
+    }
+    
+    .checkbtn{
+        display: block;
+        color: black;
+        position: relative;
+        text-align: end;
+        /* left: 12rem; */
+    }
+   
+    .sign-btn{
+        display: none;
+    }
+   nav ul{
+        position: absolute;
+        width: 90%;
+        height: 100vh;
+        background: rgba(199, 150, 28, 0.94);
+        z-index: 1;
+        top: 80px;
+        left: 100%;
+        text-align: center;
+        transition: all .5s;
+        margin-right: auto;
+        margin-left: auto;
+    
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        right: 1rem;
+        position: relative;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+    nav ul li a{
+        font-size: 20px;
+        color: white;
+    }
+    a:hover,a.active{
+        background: none;
+        color: gray;
+    }
+    #check:checked~ ul{
+        left: 0;
+    }
+    .login, .sign-up{
+        display: none;
+    }
+
 }
