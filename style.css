@@ -634,18 +634,23 @@ footer .logo{
     nav{
         display: flex;
         /* flex-direction: row-reverse; */
-        gap: 8rem;
+        /* gap: 8rem; */
+        justify-content: space-between;
         height: 1rem;
     
     }
+    .sign-up{
+        margin-right: 7rem;
+        margin-left: 1rem;
+    }
     header label{
-        font-size: 2.4rem;
+        font-size: 3rem;
         font-weight: bold;
-        padding-left: 2.5rem;
         position: relative;
-        top: 0.7rem;
-        margin-left: 2rem;
       
+    }
+    nav li:hover{
+        color: red;
     }
     /* .login{
         margin-right: 9rem;
@@ -662,22 +667,22 @@ footer .logo{
         top: 6rem;
     }
      .long-flex1{
-        width: 18rem;
-        height: 34rem;
+        width: 19%;
+        height: 37rem;
         background-color: black;
         border-radius: 15px;
         color: white;
         position: relative;
         /* left: 4.4rem; */
-        bottom: 30rem;
+        bottom: 36rem;
         margin: 0 auto ;
     
         
     }
     .long-flex1 h2{
             color: goldenrod;
-            font-size:1.8rem;
-            padding-top: 3rem;
+            font-size:1.9rem;
+            padding-top: 4rem;
             position: relative;
             text-align: center;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -694,18 +699,18 @@ footer .logo{
         
     }
     .long-flex1 p{
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         text-align: center;
-        margin-top: 5rem;
+        margin-top: 6rem;
        
     }
     .long-flex1 p span{
-      font-size: 1rem;
+      font-size: 1.1rem;
       color: goldenrod;
     }
     .download{
-        width:14rem;
-        /* height: 2.8rem; */
+        width:15rem;
+        height: 3.5rem;
         color: black;
         font-size: 1.2rem;
         background-color: goldenrod;
